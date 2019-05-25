@@ -1,2 +1,4 @@
 <?php
-    echo "Hello World!";
+    $var = "Hello World! <br> incluindo variavel";
+
+    echo $var;
