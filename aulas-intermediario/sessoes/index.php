@@ -5,9 +5,8 @@
     $senha = "123456";
 
     If ($login == "emnovaes" and $senha == "123456"){
-        $_SESSION['logaldo'] = true;
-        
-        echo "Locado";
+        $_SESSION['logado'] = true;
+        header("location:restrito.php");
     }
     else {
         echo "não Logado";
