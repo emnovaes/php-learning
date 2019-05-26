@@ -6,10 +6,9 @@
     <title>PHP - Intermediario</title>
 </head>
 <body>
-    <?php include_once "topo.php" ?>
-    <section>
-        <p>Conteudo:: Index</p>
-    </section>
-    <?php include_once "footer.php" ?>    
+    <?php
+        echo "Hello World!";
+        echo "<br> Página inicial"
+    ?>
 </body>
 </html>

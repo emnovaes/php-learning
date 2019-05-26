@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <link rel="stylesheet" href="../css/estilo.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/estilo.css" type="text/css" media="screen">
     <meta charset="UTF-8">
     <title>PHP - Intermediario</title>
 </head>
