@@ -6,24 +6,10 @@
     <title>PHP - Intermediario</title>
 </head>
 <body>
-    <header>
-        <h1>Curso PHP Intermediário</h1>
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="empresa.php">Empresa</a></li>
-                <li><a href="quemsomos.php">Quem Somos</a></li>
-                <li><a href="contato.php">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php include_once "topo.php" ?>
     <section>
-        <p>Conteudo Index</p>
+        <p>Conteudo:: Index</p>
     </section>
-    <footer>
-        <p>Todos os direitos reservados AccertSystem</p>
-    </footer>
-
-    
+    <?php include_once "footer.php" ?>    
 </body>
 </html>

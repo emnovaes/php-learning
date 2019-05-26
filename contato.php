@@ -8,8 +8,8 @@
 <body>
     <?php include_once "topo.php" ?>
     <section>
-        <p>Conteudo:: Empresa</p>
+        <p>Conteudo:: Contato</p>
     </section>
-    <?php include_once "footer.php" ?>
+    <?php include_once "footer.php" ?>    
 </body>
 </html>
