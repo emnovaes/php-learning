@@ -1,3 +1,3 @@
 <?php
-    echo $_COOKIE[$bg];
+    echo $_COOKIE["bg"];
 ?>
