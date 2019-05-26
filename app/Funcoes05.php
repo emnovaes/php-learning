@@ -9,11 +9,10 @@
 <body>
     <div>
         <?php
-            function soma( $a, $b) {
-                $s = $a + $b;
+            include "Funcoes01.php";
 
-                echo "Soma entre os numeros $s";
-            }
+            soma(1,5);          
+
 
             
         ?>
