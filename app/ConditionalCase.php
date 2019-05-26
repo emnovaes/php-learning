@@ -7,17 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="CaseExercicio.php" method="get"></form>
-        Numero: <input type="number" name="num">
+    <form method="get" action="CaseExercicio.php">
+        Numero:
+        <input type="number" name="num"/>
         <fieldset><legend>Operacao</legend>
-            <input type="radio" name="oper" id="dobro" value="1">
+            <input type="radio" name="oper" id="dobro" value="1" checked/>
             <label for="dobro">Dobro</label>
-            <input type="radio" name="oper" id="cubo" value="2">
+            <input type="radio" name="oper" id="cubo" value="2"/>
             <label for="cubo">Cubo</label>
-            <input type="radio" name="oper" id="raiz" value="3">
+            <input type="radio" name="oper" id="raiz" value="3"/>
             <label for="raiz">Raiz Quadrada</label>
         </fieldset>
-        <input type="button" value="Calcular"> 
-    </form>
+        <input type="submit" value="Calcular"/> 
 </body>
 </html>
